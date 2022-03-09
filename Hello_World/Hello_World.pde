@@ -1,36 +1,39 @@
 //Global Variables
-String y;
- String z;
- String d;
- String e;
- String f;
- String g;
- String ten;
- String h;
- String one;
- int two;
+char y;
+String z, d, e, f, g, ten, h, one;
+int two, three, twenty, skipCount=2; //Bigger INT is called a LONG,
+float thirty; // bigger FLOAT is called a DOUBLE
 //
 void setup() 
 {
   String secondSentence = "Sehbag Gill counts to 10, by 1";//Local Variable
 //println(secondSentence);
-String y = ",";
- String z = ".";
- String d = "Sehbag";
- String e = "Gill";
- String f = "counts";
- String g = "to";
- String ten = "10";
- String h = "by";
- String one = "1";
- int two = 1;
+//Population, Declaring, Valuing.
+ y = ',';
+ z = ".";
+ d = "Sehbag";
+ e = "Gill";
+ f = "counts";
+ g = "to";
+ ten = "10000";
+ twenty = int(ten);
+ thirty = 10000.0; //Must include decimals since it's a float.
+ h = "by";
+ one = "1";
+ two = int(one);//Only one formula to change
+ three = two;//Variables references the formula, Best practice.
   println(d, e, f, g, ten+y, h, int(one)+two+z);//Casting, making a STRING into a INTEGER
  println("One plus two is", one+two);
 }//End Setup
 //
 void draw() 
 {
-println(d, e, f, g, ten+y, h, int(one)+two+z);  
+ two+=skipCount;//two+1, two++, two+=1
+println(d, e, f, g, ten+y, h, two+z);  
+ three*=skipCount;//two+1, two++, two+=1
+println(d, e, f, g, ten+y, h, three+z);  
+thirty/=skipCount;//two+1, two++, two+=1
+println(d, e, f, g, twenty+y, h, thirty+z);  
 }//End Draw
 //
 void keyPressed() {
