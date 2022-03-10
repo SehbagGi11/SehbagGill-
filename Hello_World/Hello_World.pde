@@ -1,47 +1,47 @@
-//Global Variables
-char y;
-String z, d, e, f, g, ten, h, one;
-int two, three, twenty, skipCount=2; //Bigger INT is called a LONG,
-float thirty; // bigger FLOAT is called a DOUBLE
+
+ //Global Variables
+String y;
+String z, d, e, f, g, h, i, q, l, two, skipCount;
 //
-void setup() 
-{
-  String secondSentence = "Sehbag Gill counts to 10, by 1";//Local Variable
-//println(secondSentence);
-//Population, Declaring, Valuing.
- y = ',';
- z = ".";
+void setup() {
+  
+  String secondSentence = "The almighty hammer of Sehbag.";
+ y = "The";
+ z = "Almighty";
  d = "Sehbag";
  e = "Gill";
- f = "counts";
- g = "to";
- ten = "10000";
- twenty = int(ten);
- thirty = 10000.0; //Must include decimals since it's a float.
- h = "by";
- one = "1";
- two = int(one);//Only one formula to change
- three = two;//Variables references the formula, Best practice.
-  println(d, e, f, g, ten+y, h, int(one)+two+z);//Casting, making a STRING into a INTEGER
- println("One plus two is", one+two);
-}//End Setup
-//
-void draw() 
-{
- two+=skipCount;//two+1, two++, two+=1
-println(d, e, f, g, ten+y, h, two+z);  
- three*=skipCount;//two+1, two++, two+=1
-println(d, e, f, g, ten+y, h, three+z);  
-thirty/=skipCount;//two+1, two++, two+=1
-println(d, e, f, g, twenty+y, h, thirty+z);  
-}//End Draw
-//
-void keyPressed() {
-}//End keyPressed
-//
-void mousePressed() {
-}//End mosePressed
-//
+ f = "Hammer";
+ g = "of";
+ i= ".";
+ q= "zap";
+ l= "zzz";
+ two = "2";
+  println(y, z, f, g, d, e+i);
+  println(".-. .-. . . .-. .-. .-.");
+  println("`-. |-  |-| |(  |-| |..");
+  println("`-' `-' ' ` `-' ` ' `-' ");
+  println("     ()     ");
+  println("  /`-||-'\\ ");
+  println("(| -=||=- |)");
+  println(" \\, -||-.// ");
+  println("  `  ||  '  ");
+  println("     ||     ");
+  println("     ||     ");
+  println("     ||     ");
+  println("S.G  ()     ");
+}
+
+void draw() {
+println("\t"+q);
+println("\n"+q);
+println("\t\t"+l);
+}
+
+
+
+
+
+
 
 
 
